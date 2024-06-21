@@ -2,7 +2,10 @@ import React from 'react';
 
 const Company = () => {
   return (
-    <div className="bg-purple-700 text-white py-8">
+    <div
+      className="text-white py-8"
+      style={{ background: 'linear-gradient(90deg, #15073A 0%, #7256BD 52%, #201148 100%)' }}
+    >
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex flex-wrap justify-center md:justify-between">
           <div className="text-center px-4 mb-4 md:mb-0">

@@ -31,7 +31,7 @@ const Hero = () => {
           <Button className="mt-8 px-6 py-3 bg-blue-600 text-white text-base md:text-lg font-semibold">
             Learn More
           </Button>
-          <div className=" justify-center lg:justify-start mt-14 hidden md:block">
+          <div className="justify-center lg:justify-start mt-14 hidden md:block">
             {/* Social Media Icons */}
             <a href={socialMediaLinks.facebook} target="_blank" rel="noopener noreferrer" className="inline-block transition-transform transform hover:scale-110">
               <img src={FacebookIcon} alt="Facebook" className="w-6 h-6 mx-2" />
@@ -48,14 +48,13 @@ const Hero = () => {
             <a href={socialMediaLinks.twitter} target="_blank" rel="noopener noreferrer" className="inline-block transition-transform transform hover:scale-110">
               <img src={TwitterIcon} alt="Twitter" className="w-6 h-6 mx-2" />
             </a>
-            {/* Add more icons here as needed */}
           </div>
         </div>
-        <div className="w-full lg:w-5/12 flex justify-center lg:justify-end">
+        <div className="relative w-full lg:w-5/12 flex justify-center lg:justify-end lg:absolute lg:bottom-0 lg:right-0">
           <img
             src={Person}
             alt="Description of image"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full h-auto"
+            className="relative w-full max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-full h-auto sm:mb-0 md:mb-4 lg:mb-0"
           />
         </div>
       </div>

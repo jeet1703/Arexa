@@ -33,7 +33,7 @@
 .border-gradient1 {
   border-width: 10px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to bottom, #7F00FF, #E100FF); /* Purple at the top, orange at the bottom */
+  border-image-source: linear-gradient(to bottom, #140639, #7961BA, #6E4FC0, #15073A); /* Gradient with specified colors */
   border-radius: 1rem; 
 }
 
