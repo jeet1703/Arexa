@@ -37,9 +37,9 @@ const Header = () => {
           openNavigation ? "bg-n-8" : "bg-n-8/90"
         }`}
       >
-        <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-          <a className="block w-[12rem] xl:mr-8" href="#">
-            <img src={Logo} width={100} height={40} alt="Arexa" />
+        <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 md:mt-2">
+          <a className="block w-[7rem] md:w-[12rem] xl:mr-8 " href="#">
+            <img src={Logo} width={150} height={50} alt="Arexa" />
           </a>
 
           {/* Navigation Links */}
@@ -58,11 +58,11 @@ const Header = () => {
                     openNavigation ? "text-white" : "text-gray-300" 
                   } hover:text-white ${
                     item.onlyMobile ? "lg:hidden" : ""
-                  } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                  } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xl lg:font-semibold ${
                     item.url === pathname.hash
                       ? "z-2 lg:text-n-1"
                       : "lg:text-n-1/50"
-                  } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                  } lg:leading-5 lg:hover:text-n-1 xl:px-12 `}
                 >
                   {item.title}
                 </a>

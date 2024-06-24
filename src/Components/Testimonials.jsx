@@ -13,7 +13,9 @@ const Testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipe: true,
-    arrows: false, // Set arrows to false to hide both prevArrow and nextArrow
+    arrows: false,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 5000, // Set autoplay speed to 5 seconds (5000 ms)
     appendDots: dots => (
       <div className="absolute bottom-0 left-0 right-0 flex justify-center pb-4">
         <ul className="m-0">{dots}</ul>
@@ -24,7 +26,7 @@ const Testimonial = () => {
   return (
     <div className="bg-black text-white py-20" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-10 text-gradient mt-20">Testimonial</h2>
+        <h2 className=" text-4xl md:text-7xl  font-bold mb-10 text-gradient mt-20">Testimonial</h2>
         {/* Mobile View */}
         <div className="block md:hidden relative">
           <Slider {...settings}>

@@ -10,7 +10,7 @@ const ContactUs = () => (
       }}
   >
     <div className="container mx-auto ">
-      <div className="bg-black bg-opacity-75 p-8 rounded-lg text-white max-w-2xl mx-auto">
+      <div className="bg-black bg-opacity-45 p-10  rounded-lg text-white max-w-4xl mx-auto my-10">
         <h2 className="text-center text-3xl font-bold mb-4">CONTACT US</h2>
         <p className="text-center mb-8">
           If you are willing to conduct AR/VR events in your city, you can contact us at 
