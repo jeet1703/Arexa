@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import background from '../assets/Background.png';
+import background from '../assets/Background.jpg';
 import Person from '../assets/person.png';
 import Button from './Button';
 import { socialMediaLinks } from '../Constants';
