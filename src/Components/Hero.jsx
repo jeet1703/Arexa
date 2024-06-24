@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="absolute inset-0 from-[#140639] via-[#7961BA] to-[#15073A] opacity-90 z-0"></div>
       <Header />
       <div className="relative mx-auto h-full flex flex-col lg:flex-row items-center z-10">
-        <div className="w-full lg:w-1/2 p-8 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 p-8 text-center lg:text-left md:ml-12">
           <h1 className="text-3xl md:text-4xl lg:text-6xl text-white mt-20 lg:mt-0">
             Design Revolution Through AR Innovation
           </h1>
